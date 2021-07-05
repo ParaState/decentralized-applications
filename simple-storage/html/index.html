@@ -1,0 +1,49 @@
+<div id="outer" class="container">
+    <!-- init -->
+    <div id="image" class="form-row text-center">
+        <div class="col-sm-12">
+            <img src="https://avatars.githubusercontent.com/u/78342518?s=200&v=4">
+            <hr class="mt-2 mb-3"/>
+        </div>
+    </div>
+    <br />
+    <!-- ChainId -->
+    <div id="chain" class="form-row text-center">
+
+        <div class="col-sm-12 spacer">
+            <b>Block height</b>
+            <br />Please, press button to get the block height.
+            <br />
+            👇<br />
+            <button type="button" class="btn btn-primary btn-sm spacer" id="block_number_button" onclick="getBlockNumber();">Get block height</button>
+            <div id="block_number_output" class="full_width spacer center_text"></div>
+            <hr class="mt-2 mb-3"/>
+        </div>
+        <div class="col-sm-12 spacer">
+            <b>Store data</b>
+            <br />
+            Please enter a number. 
+            <br />
+            <input id="number_input" type="text" class="full_width spacer center_text" value="12345"/>
+            <br />
+            Then press button to store a number.
+            <br />
+            👇<br />
+            <button type="button" class="btn btn-primary btn-sm spacer" id="store_data_button" onclick="storeData();">Store number</button>
+            <div id="store_data_output" class="full_width spacer center_text"></div>
+            <hr class="mt-2 mb-3"/>
+        </div>
+                <div class="col-sm-12 spacer">
+            <b>Retrieve data</b>
+            <br />Please, press button to retrieve data.
+            <br />
+            👇<br />
+            <button type="button" class="btn btn-primary btn-sm spacer" id="retrieve_data_button" onclick="retrieveData();">Retrive data</button>
+            <div id="retrieve_data_output" class="full_width spacer center_text"></div>
+            <hr class="mt-2 mb-3"/>
+        </div>
+
+
+    </div>
+</div>
+

@@ -1,0 +1,19 @@
+button {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  font-size: 1em;
+}
+
+.full_width {
+    width:100%;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.spacer {
+    padding-top: 8px;
+    padding-bottom: 8px
+}
