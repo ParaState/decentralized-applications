@@ -21,7 +21,12 @@ Please note, the following URLs must also be pasted into the appropriate "Resour
 
 ## Live Demo
 
-If you would prefer to simply use the already deployed version of this DApp, please visit [this link](https://opendapps.secondstate.io/JAM_and_Web3_1625291465334.html)
+If you would prefer to simply use the already deployed version of this DApp, please visit [this link](https://opendapps.secondstate.io/JAM_and_Web3_1625291465334.html).
+
+Please note, you will need wallet software such as [MetaMask](https://metamask.io/) to use the DApp. Wallet settings are as follows:
+
+- RPC: https://rpc.parastate.io:8545
+- ChainId: 123
 
 ## Live Demo Example
 ![Image demo](https://github.com/ParaState/decentralized-applications/raw/main/simple-storage/images/simple_storage.gif)
